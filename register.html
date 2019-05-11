@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>登陆</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon"/> 
+	<link rel="stylesheet" href="CSS/bootstarp.css">
+	<link rel="stylesheet" href="CSS/bood.css">
+</head>
+<body>
+	<div class="navbar navbar-default">
+		<div class="container">
+		<div class="navbar-header">
+		<a href="index.html" class="navbar-brand"></a>
+		</div>
+		<label id="toggle-label" for="toggle-checkbox" class="visible-xs-inline-block">MENU</label>
+		<input id="toggle-checkbox" type="checkbox" class="hidden">
+		<div class="hidden-xs">
+		<ul class="nav navbar-nav ">
+		<li><a target="_blank" href="https://live.bilibili.com/14578426">歌姬直播间</a></li>
+		<li><a target="_blank" href="https://space.bilibili.com/2315820/"> 伊莎贝拉粉丝应援会 </a></li>
+		<li><a target="_blank" href="https://jq.qq.com/?_wv=1027&amp;k=5bMYdRg"> 伊莎贝拉后援会🌟 </a></li>
+		</ul>
+		</div>
+		</div>
+	</div>
+	<div class="container container-small">
+	<h1>注册</h1>
+		<form id="RegForm" method="get" action="">
+		<div class="form-group">
+		<label for="qq">QQ号</label>
+		<input id="qq" name="qq" type="text" class="form-control">
+		<small>用于调查二创，请认真填写</small>
+		</div>
+		<div class="form-group">
+		<label for="username">昵称</label>
+		<input id="username" name="username" type="text" class="form-control">
+		<small>2~12个合法字符</small>
+		</div>
+		<div class="form-group">
+		<label for="password">密码</label>
+		<input id="password" name="password" type="password" class="form-control">
+		<small>6~16个字符，区分大小写</small>
+		</div>
+		<div class="form-group">
+		<label for="confirm_passwords">重复密码</label>
+		<input id="confirm_password" name="confirm_password" type="password" class="form-control">
+		<small>请再次输入密码</small>
+		</div>
+		<div class="form-group">
+		<button  type="submit" class="btn btn-primary btn-block">确定</button>
+		</div>
+		</form>
+	</div>		
+</body>
+<script src="js/jQuery.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>
+</html>

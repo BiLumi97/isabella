@@ -1,0 +1,190 @@
+/*
+space-主界面
+Anotice-公告内容
+notice-公告
+details-贝化值明细
+goods-商品明细
+help-帮助界面
+index-登陆
+lock-修改密码
+price-商城
+register-注册
+setup-设置
+talk-意见反馈
+ **/
+body{
+	background-color: white;
+}
+.head-img{
+	max-width: 150px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.head-name{
+	text-align: center;
+}
+.idtype{
+	color: red;
+}
+/* 小图标样式 */
+.coin{
+   background: url(../img/coin.png) center left no-repeat;
+   background-size: 20px;  
+   padding-left: 20px;
+}
+.banana{
+   background: url(../img/banana.png) center left no-repeat;
+   background-size: 20px;  
+   padding-left: 20px;
+}
+.bananatwo{
+   background: url(../img/bannatwo.png) center left no-repeat;
+   background-size: 20px;  
+   padding-left: 20px;
+}
+.email{
+   background: url(../img/email.png) center left no-repeat;
+   background-size: 20px;  
+   padding-left: 20px;
+}
+.gear{
+   background: url(../img/gear.png) center left no-repeat;
+   background-size: 20px;  
+   padding-left: 20px;
+}
+.help{
+   background: url(../img/help.png) center left no-repeat;
+   background-size: 20px;  
+   padding-left: 20px;
+}
+.lock{
+   background: url(../img/lock.png) center left no-repeat;
+   background-size: 20px;  
+   padding-left: 20px;
+}
+.talk{
+   background: url(../img/talk.png) center left no-repeat;
+   background-size: 20px;  
+   padding-left: 20px;
+}
+.foot-talk{
+	border-bottom: 1px solid #ddd;
+}
+.space img{
+	height:20px;
+	float: right;
+}
+.space{
+	border-top:1px solid #ddd;
+	padding:1.5px;
+}
+.space a{
+	color: #555;
+}
+.space a:link {
+	color: #555; 
+	text-decoration:none;
+}  
+.space a:active{
+	color: #555;
+	 } 
+.space a:visited {
+	color: #555;
+	text-decoration:none;
+} 
+.space a:hover {
+	color: #555;
+	text-decoration:none;
+}/*  主界面样式 */
+
+.navbar {
+	font-size: 18px;
+	line-height:40px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}/* 导航样式 */
+.navbar img{
+	float: left;
+	max-width: 40px;
+}
+.container-small{
+	max-width: 100%;
+}
+.goods{
+	text-align: center;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+.goods img{
+	max-height: 180px;
+	padding:5 5;
+}
+.goods a{
+	color: black;
+}
+.goods-title{
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+}
+.price,.isnum{
+	color:#FF9900;
+	padding-right: 80px;
+	font-size: 18px;
+}
+.price:after{
+	content: "B"
+}
+.goods-img{
+	text-align: center;
+}
+.data-month,.isflag,.isdata{
+	color: #a9b604;
+	display: block;
+}
+.isdata,.isflag{
+	text-align: right;
+}/* 时期内容 */
+.isReason{
+	text-indent:18px
+}/* 贝化值明细内容 */
+.notice,.details{
+	background-color:#f5f5f5;;
+	padding:5px 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius:10px;
+}
+.navbar-hidden{
+	text-align:left;
+	background-color:#FFFF00;
+	border:1px solid #ddd;
+	border-radius:10px;
+	display: none;
+}/* 导航内容样式 */
+.navbar-hidden  a {
+	color: #CC6699;
+	font-weight:bolder;
+	text-decoration:none;
+}
+.navbar-hidden:hover,.navbar-hidden a:hover{
+	background-color:red;
+	color: #FFFF00;
+}
+.notice-title{
+	font-size: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+}
+.text{
+	color: #777;
+	text-indent:26px;
+}/* 公告内容 */
+.notice-title a{
+	color:inherit;
+	text-decoration: none;
+}

@@ -1,0 +1,67 @@
+.navbar-default {
+background-color: #FF99CC;
+border-bottom-width:3px;
+border-bottom-color:#CCCCCC;
+}
+.navbar-default .navbar-nav > li > a {
+color: #CC6699;
+font-weight:bolder;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	background-color:red;
+}
+.navbar{
+	background-color:#FFFF00;
+}
+.navbar-brand{
+background-image: url(../img/logo.png);
+width: 100px;
+background-size: 90%;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.list-group-item{
+border:0;
+border-radius: 3px;
+font-weight:bold;
+}
+
+.list-group-item.active{
+background-color: #FF9900;
+}
+div.news-list-item img{
+	padding-top: 30px;
+	display: block;
+	max-width: 100%;
+}
+.text{
+	padding-top: 50px;
+}
+.text .list-group-item{
+	font-weight:normal;
+	border:15px;
+	
+} 
+.text .active{
+	background-color: #66CCCC;
+	font-weight:bold;
+}
+.container-small{
+	max-width: 500px
+}
+
+#toggle-checkbox:checked ~ div{
+	display: block!important;
+}
+#toggle-label{
+	display: inline-block;
+	position: absolute;
+	right:15px;
+	top:16px;
+	display: none;
+}
+.footer{
+	margin-top: 150px;
+	text-align: center;
+	font-size: 18px;
+}
